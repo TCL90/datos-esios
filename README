@@ -1,0 +1,22 @@
+# Produccion eólica-solar
+
+Este proyecto consiste en el uso de herramientas y modelos de deep learning para realizar un análisis de los datos extraidos de la API de Esios (Red Eléctrica Española) en forma de series temporales. Se pretende recoger los datos necesarios de la producción de energía renovable y demanda de energía en España para poder predecir con la mayor exactitud posible la energía que se va a generar en los proximos intervalos de tiempo y reaccionar lo antes posible ante la posibilidad de que la energía renovable que se va a producir no sea la suficiente para abastecer al sistema de red eléctrica.
+
+De esta forma se podrán tomar decisiones con un mayor margen de tiempo y se tomarán medidas menos contaminantes para producir la energía que no han podido producir nuestras fuentes de energía renovables. 
+
+## Comenzando 🚀
+Para poder extraer los datos hemos usado una modificación de una aplicación desarrollada por un compañero llamado Tomás Domínguez. La aplicación se encuentra en la carpeta modificacion-generador.
+
+### Pre-requisitos 📋
+Para poder utilizar este proyecto es necesario instalar las librerias:
+* Tkinter.
+* tkcalendar.
+* requests.
+* xlrd.
+* pandas.
+
+### Fuentes:
+
+- ESIOS
+  - [Sitio web](https://www.esios.ree.es/es) 
+  - [API de ESIOS](https://github.com/SanPen/ESIOS)
